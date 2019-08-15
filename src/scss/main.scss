@@ -12,5 +12,9 @@ html {
 }
 
 body {
+  align-items: center;
   background: #3767ad;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
 }
