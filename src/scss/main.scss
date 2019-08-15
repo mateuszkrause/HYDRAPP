@@ -1,8 +1,10 @@
 @import "_normalize";
 @import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
 
 html {
   box-sizing: border-box;
+  font-family: "Roboto";
 }
 
 *,
@@ -20,6 +22,7 @@ body {
 }
 .main {
   &__button {
+    font-weight: 500;
     &--add {
       background: #fff;
       border: none;
