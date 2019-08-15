@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -309,7 +310,8 @@ template {
 
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  font-family: "Roboto"; }
 
 *,
 *:before,
@@ -318,6 +320,63 @@ html {
           box-sizing: inherit; }
 
 body {
-  background: #3767ad; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #3767ad;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh; }
+
+.main__button {
+  font-weight: 500; }
+  .main__button--add {
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    height: 47px;
+    width: 216px; }
+  .main__button--remove {
+    background: none;
+    border: none;
+    color: #f5e5e7;
+    font-size: 14px;
+    height: 23px;
+    margin-top: 37px;
+    width: 184px; }
+
+.main__button-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 48px; }
+
+.main__counter {
+  margin: 0;
+  font-size: 112px;
+  font-weight: 500;
+  line-height: 98px;
+  position: absolute;
+  text-align: center;
+  top: 114px;
+  left: 96px;
+  right: 96px; }
+
+.main__image-wrapper {
+  position: relative; }
 
 /*# sourceMappingURL=main.css.map */
