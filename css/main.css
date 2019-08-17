@@ -373,8 +373,7 @@ body {
   position: absolute;
   text-align: center;
   top: 114px;
-  left: 96px;
-  right: 96px; }
+  width: 100%; }
 
 .main__image-wrapper {
   position: relative; }
